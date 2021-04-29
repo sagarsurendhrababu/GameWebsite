@@ -163,10 +163,11 @@ footer p{color: var(--color8);}
 
 /*////////////////////////////////////MOBILE//////////////////////////////////////////*/
 @media (max-width:500px) {
-    h1{font-size:9rem; line-height: 8rem;}
+    h1{font-size:9rem; line-height: 8rem; }
     h4{ letter-spacing:.6rem; font-size: 1.5rem; width: 100%!important;} 
+    .container{width: 100%; overflow:hidden;}
     .slider2{display: none!important;}
-    .slider1{width: 100%; }
+    .slider1{width: 100%; padding-left: 0; }
     .scrolMouse{left: 40%;}
     .feature>div>img{width: 70%;}
     .gridBox{grid-template-rows: repeat(3,1fr)!important; height:auto!important;} 
