@@ -53,7 +53,7 @@ h1:hover:before{transform: translateX(20px); }
 h1:hover:after{transform: translateX(-20px); }
 
 /*////////////////////////////////////MAIN CONTAINER//////////////////////////////////////////*/
-.container{width: 100%; height: auto; background: #fff;}
+.container{width: 100%; height: auto; background: #fff; }
 
 /*////////////////////////////////////HEADER//////////////////////////////////////////*/
 header{height: 738px; width: 100%; background: url("../img/slider-bg.png"); background-color: #000; background-position: top right; background-repeat: no-repeat; }
