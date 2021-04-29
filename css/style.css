@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 *{margin: 0; padding:0; box-sizing: border-box;}
-html{font-size: 12px;}
+html{font-size: 12px; overflow-x: hidden;}
 
 
 /*///////////////////////////varibales classes///////////////////////////////////*/
@@ -74,7 +74,7 @@ header{height: 738px; width: 100%; background: url("../img/slider-bg.png"); back
 .featureBox1>img{align-self: flex-start;}
 
 /*////////////////////////////////////Gallery//////////////////////////////////////////*/
-.gallery{width: 100%; height: auto; background-color: var(--color1); padding: 2% 0;}
+.gallery{width: 100%; height: auto; background-color: var(--color1); padding: 2% 0; }
 .gridBox{width: 100%; height:867px; display: grid; grid-gap: 1rem; grid-template-columns: repeat(4,1fr); grid-template-rows: repeat(3,1fr);}
 .g-box{background-color: var(--color1); display: flex; flex-direction: column;}
 .g-box>div:nth-child(1){height: 80%;}
